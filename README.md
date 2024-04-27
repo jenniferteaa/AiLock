@@ -8,3 +8,18 @@ ETT in terms of ai.lock represents the threshold used to separate valid from inv
 
 Higher values of τ (e.g., τ = 7.80) indicate a higher tolerance for errors or discrepancies between images. In other words, the system is more lenient in accepting matches.
 Lower values of τ (e.g., τ = 6.82) suggest a stricter threshold for accepting matches, meaning the system is more selective and requires a higher degree of similarity between images to accept them as matches.
+
+
+This will display the installation command with proper syntax highlighting for the shell (`bash`) code. You can replace `your-package` with the name of your actual package. Similarly, you can include Python code blocks using the `python` language identifier:
+
+```markdown
+## Usage
+
+Here's an example of how to use `your-package`:
+
+```python
+import your_package
+
+# Example usage
+result = your_package.some_function()
+print(result)
