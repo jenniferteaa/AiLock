@@ -12,14 +12,3 @@ Lower values of τ (e.g., τ = 6.82) suggest a stricter threshold for accepting 
 
 This will display the installation command with proper syntax highlighting for the shell (`bash`) code. You can replace `your-package` with the name of your actual package. Similarly, you can include Python code blocks using the `python` language identifier:
 
-```markdown
-## Usage
-
-Here's an example of how to use `your-package`:
-
-```python
-import your_package
-
-# Example usage
-result = your_package.some_function()
-print(result)
