@@ -122,9 +122,9 @@ Datasets
     │   ├── google.h5
     │   └── toys.h5
     └── part_5
-    │   ├── nexus.h5
-    │   ├── google.h5
-    │   └── toys.h5
+        ├── nexus.h5
+        ├── google.h5
+        └── toys.h5
 
 ```
 
