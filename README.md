@@ -149,4 +149,4 @@ To conduct single-layer single-image experiments:
 
 Use the code provided under the Single_image directory.
 For computing the best performing thresholds for binary classifications of images, use single_image_cv_train.py.
-To evaluate the performance of ai.lock on the holdout set, use single_image_cv_holdout.py.
+To evaluate the performance of ai.lock on the holdout set, use `single_image_cv_holdout.py`.
