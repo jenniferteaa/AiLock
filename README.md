@@ -25,11 +25,11 @@ Step 1: Download the mentioned datasets.
 
 Step 2: Image Splitting
 
-We used the split_images.py code to split each image into multiple segments. Each image from the three datasets is split or cropped into five overlapping segments. This is done to ensure that each feature in the image is considered in multiple segments, reducing the impact of variations in pose, lighting, or expression. The splitting is also beneficial for enhanced robustness, improved feature representation, and reduction of dimensionality.
+We used the `split_images.py` code to split each image into multiple segments. Each image from the three datasets is split or cropped into five overlapping segments. This is done to ensure that each feature in the image is considered in multiple segments, reducing the impact of variations in pose, lighting, or expression. The splitting is also beneficial for enhanced robustness, improved feature representation, and reduction of dimensionality.
 
 ### Creation of Activation Files for Each Image
 
-Run the activations.py code to create activations for each image. For this, we implemented a DNN with the InceptionV3's mixed10 layer for efficient feature extraction.
+Run the `activations.py` code to create activations for each image. For this, we implemented a DNN with the InceptionV3's mixed10 layer for efficient feature extraction.
 
 The file directory structure should look like this:
 
@@ -131,7 +131,7 @@ Datasets
 
 ### Dataset Splitting
 
-For the Inception layer, run split_datasets_to_test_train.py to split the embeddings in each dataset into test (holdout) and train sets.
+For the Inception layer, run `split_datasets_to_test_train.py` to split the embeddings in each dataset into test (holdout) and train sets.
 
 ### Package Installation and Configuration
 
@@ -148,5 +148,5 @@ return ((projection > 0).astype(int), (projection <= 0).astype(int))
 To conduct single-layer single-image experiments:
 
 Use the code provided under the Single_image directory.
-For computing the best performing thresholds for binary classifications of images, use single_image_cv_train.py.
+For computing the best performing thresholds for binary classifications of images, use `single_image_cv_train.py`.
 To evaluate the performance of ai.lock on the holdout set, use `single_image_cv_holdout.py`.
