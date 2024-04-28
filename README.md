@@ -18,6 +18,7 @@ We utilized three datasets for this project, all containing images of toy object
 - Nexus dataset
 - Google dataset
 - Toys dataset
+
 In our implementation, all datasets mentioned above contain object pictures, specifically toys. However, the authors in the paper have included various objects, such as scenery, bracelets, cloth designs, earrings, etc., in their dataset.
 
 Step 1: Download the mentioned datasets.
