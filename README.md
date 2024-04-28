@@ -32,6 +32,7 @@ Run the activations.py code to create activations for each image. For this, we i
 
 The file directory structure should look like this:
 
+```
 Nexus
 └── Nexus_split
     ├── Cropped_images
@@ -76,6 +77,7 @@ Toys
         ├── toys_part3.txt
         ├── toys_part4.txt
         └── toys_part5.txt
+```
 
 If the part1 folder under the Nexus dataset contains 'n' images, the nexus_part1 under the Nexus_Activations would have 'n' number of .txt files. These are the activation files.
 
@@ -96,6 +98,7 @@ The resulting file generation messages should look something like this:
 
 Put the .h5 files corresponding to the full-size images under the full_size directory, and the .h5 files corresponding to each of the five image segments under the part_1 to part_5 directories. The final directory structure for the datasets should look like the following:
 
+```
 Datasets
 └── Mixed10
     ├── full_size
@@ -123,7 +126,7 @@ Datasets
     │   ├── google.h5
     │   └── toys.h5
 
-
+```
 
 ### Dataset Splitting
 
