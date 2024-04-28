@@ -106,25 +106,25 @@ Datasets
     │   ├── google.h5
     │   └── toys.h5
     ├── part_1
-    │   ├── nexus.h5
-    │   ├── google.h5
-    │   └── toys.h5
+    │   ├── nexus_part1.h5
+    │   ├── google_part1.h5
+    │   └── toys_part1.h5
     ├── part_2
-    │   ├── nexus.h5
-    │   ├── google.h5
-    │   └── toys.h5
+    │   ├── nexus_part2.h5
+    │   ├── google_part2.h5
+    │   └── toys_part2.h5
     ├── part_3
-    │   ├── nexus.h5
-    │   ├── google.h5
-    │   └── toys.h5
+    │   ├── nexus_part3.h5
+    │   ├── google_part3.h5
+    │   └── toys_part3.h5
     ├── part_4
-    │   ├── nexus.h5
-    │   ├── google.h5
-    │   └── toys.h5
+    │   ├── nexus_part4.h5
+    │   ├── google_part4.h5
+    │   └── toys_part4.h5
     └── part_5
-        ├── nexus.h5
-        ├── google.h5
-        └── toys.h5
+        ├── nexus_part5.h5
+        ├── google_part5.h5
+        └── toys_part5.h5
 
 ```
 
