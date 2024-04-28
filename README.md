@@ -136,11 +136,16 @@ For the Inception layer, run `split_datasets_to_test_train.py` to split the embe
 ### Package Installation and Configuration
 
 Download the Nearpy package.
-Replace the last line of the hash_vector method in hashes/permutations/randombinaryprojections.py with the provided code snippet. (i.e. return [''.join(['1' if x > 0.0 else '0' for x in projection])]) to the following code:
 
+Replace the last line of the hash_vector method in hashes/permutations/randombinaryprojections.py with the provided code snippet. (i.e. return [''.join(['1' if x > 0.0 else '0' for x in projection])]) to the following code:
 
 ```
 return ((projection > 0).astype(int), (projection <= 0).astype(int))
+```
+And the following code snippet super(RandomBinaryProjections, self).__init__(hash_name) to:
+
+```
+super().__init__(hash_name)
 ```
 
 ### Running Experiments
