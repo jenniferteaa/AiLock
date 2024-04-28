@@ -84,7 +84,7 @@ If the part1 folder under the Nexus dataset contains 'n' images, the nexus_part1
 
 ### Aggregating the Activation Files
 
-Run the code aggregate_feature_vectors.py to produce one .h5 file by aggregating all the activation files under a certain part. This file will then be used to train and evaluate ai.lock performance.
+Run the code `aggregate_feature_vectors.py` to produce one .h5 file by aggregating all the activation files under a certain part. This file will then be used to train and evaluate ai.lock performance.
 
 The resulting file generation messages should look something like this:
 
