@@ -135,14 +135,7 @@ Download the Nearpy package.
 Replace the last line of the hash_vector method in hashes/permutations/randombinaryprojections.py with the provided code snippet. (i.e. return [''.join(['1' if x > 0.0 else '0' for x in projection])]) to the following code:
 
 
-```markdown
-## Usage
-
-Here's what to update in the `randombinaryprojections.py`:
-
-```python
-
-# Example usage
+```
 return ((projection > 0).astype(int), (projection <= 0).astype(int))
 ```
 
